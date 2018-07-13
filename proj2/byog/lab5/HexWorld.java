@@ -15,7 +15,7 @@ import java.util.Random;
 */
 
 public class HexWorld {
-    private static final int SIZE = 2;
+    private static final int SIZE = 3;
     private static final int COUNT = 3;
     private static TETile[][] randomTiles = new TETile[2 * SIZE * ( 2 * COUNT - 1)][2 * SIZE * ( 2 * COUNT - 1)];
 
